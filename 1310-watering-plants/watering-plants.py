@@ -9,11 +9,8 @@ class Solution:
                 print(steps)
             else: 
                 steps = steps + i
-                print(steps)
                 temp = capacity
                 temp = temp - plants[i]
                 steps = steps + i+1
-                print(steps)
-
         return steps
 
