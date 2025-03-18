@@ -6,7 +6,6 @@ class Solution:
             if temp - plants[i] >= 0:
                 temp = temp - plants[i]
                 steps = steps + 1
-                print(steps)
             else: 
                 steps = steps + i
                 temp = capacity
