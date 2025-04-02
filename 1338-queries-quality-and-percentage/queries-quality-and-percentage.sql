@@ -27,4 +27,4 @@ SELECT st.query_name,
 FROM sum_table st
 JOIN poor_query_percentage pqp
 ON st.query_name = pqp.query_name
-GROUP BY st.query_name, pqp.poor_query_percentage;
+
